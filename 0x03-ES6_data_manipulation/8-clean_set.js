@@ -5,7 +5,7 @@ function cleanSet(set, startString) {
 
   let result = '';
 
-  for (let item of set) {
+  for (const item of set) {
     if (item.startsWith(startString)) {
       if (result.length !== 0) {
         result += '-';
